@@ -3,7 +3,7 @@
 
 **Project Name**   | **Description**   | **Libs Used**
 :------------      | :-----------      | :--------
-Exemplo 1 | R$ 10 | Puramente um teste
+Aumentando a receita de uma loja online| Project viewing the increase of revenue in a online marketplace, analysing hypothesis, using an A/B test and scanning results | *matplotlib, numpy, statistical tests*
 Exemplo 2 | R$ 8
 Exemplo 3 | R$ 7
 Exemplo 4 | R$ 8
