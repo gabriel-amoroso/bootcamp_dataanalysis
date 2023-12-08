@@ -7,7 +7,5 @@
 [Impact of marital status and children on loan delinquency](https://github.com/GabrielAmoroso/tripleten_dataanalysis/blob/main/bank_credit_project.ipynb) | Credit report for the loans department of a generic bank. Analyzing the marital status and number of children of clients and the impact of these data on the creation of a credit score. | *pandas, matplotlib, ETL, data preprocessing*
 [Characteristics Impacting the Success of a Video Game](https://github.com/GabrielAmoroso/tripleten_dataanalysis/blob/main/games_sales_project.ipynb) | Analysis of sales for various games in 2016, aimed at planning advertising campaigns for 2017. | *matplotlib, numpy, data preprocessing, ETL*
 [Marketing optimization analysis](https://github.com/GabrielAmoroso/tripleten_dataanalysis/blob/main/marketing_project.ipynb)| Analysis of costs and returns for different types of advertisements | *LTV, CAC, ROMI, ETL, matplotlib*
-[Market analysis for a new style of coffee shop]()| Study of Current Market Conditions and Future Success Prospects | *data visualization, matplotlib, plotly, seaborn, data manipulation*
-Exemplo 2 | R$ 8
-Exemplo 3 | R$ 7
-Exemplo 4 | R$ 8
+[Market analysis for a new style of coffee shop](https://github.com/GabrielAmoroso/tripleten_dataanalysis/blob/main/market_analysis_project.ipynb)| Study of Current Market Conditions and Future Success Prospects | *data visualization, matplotlib, plotly, seaborn, data manipulation*
+
