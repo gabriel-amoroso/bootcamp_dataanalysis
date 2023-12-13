@@ -8,4 +8,4 @@
 [Characteristics Impacting the Success of a Video Game](https://github.com/GabrielAmoroso/tripleten_dataanalysis/blob/main/games_sales_project.ipynb) | Analysis of sales for various games in 2016, aimed at planning advertising campaigns for 2017. | *matplotlib, numpy, data preprocessing, ETL*
 [Marketing optimization analysis](https://github.com/GabrielAmoroso/tripleten_dataanalysis/blob/main/marketing_project.ipynb)| Analysis of costs and returns for different types of advertisements | *LTV, CAC, ROMI, ETL, matplotlib*
 [Market analysis for a new style of coffee shop](https://github.com/GabrielAmoroso/tripleten_dataanalysis/blob/main/market_analysis_project.ipynb)| Study of Current Market Conditions and Future Success Prospects | *data visualization, matplotlib, plotly, seaborn, data manipulation*
-
+[Test of a new user interface](https://github.com/GabrielAmoroso/tripleten_dataanalysis/blob/main/sales_aab_test_project.ipynb)| Analysing how an update in user experience changes sales funnel using A/A/B test | *data visualization, matplotlib, plotly, seaborn, data manipulation*
