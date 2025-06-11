@@ -56,5 +56,6 @@ The dataset contains anonymized data about individuals who applied for a loan, i
 
 ## 🙌 Credits
 
-Developed by [Gabriel Amoroso](https://github.com/gabriel-amoroso) as part of a bootcamp data analysis project.  
-Special thanks to tutors and reviewers for their feedback during development.
+Developed by [Gabriel Amoroso](https://github.com/gabriel-amoroso) as part of the Data Analysis Bootcamp by [TripleTen](https://tripleten.com.br).  
+The original dataset used in this project is proprietary to TripleTen and provided for educational purposes only.  
+Special thanks to the TripleTen team, tutors, and reviewers for their guidance and support during the project.
