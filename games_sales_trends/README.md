@@ -1,20 +1,27 @@
-# 🎮 Video Game Market Analysis
+# 🎮 What Makes a Game Succeed?
 
-## 📌 Project Overview
-
-This project explores the global video game market using data since 1980s of different consoles to identify trends and factors that influence a game's commercial success. I analyzed the impact of platform, genre, region, rating systems, and both critic and user scores. The main goal was to uncover actionable insights that publishers, developers, and marketers can use to better position their products in the market. It's a simulation of a real-world scenario from 2016, focusing on forecast future trends.
+> *Exploring sales patterns, genre trends, platform differences, and regional preferences.*
 
 ---
 
-## 📓 Notebook Access
+**✦ TL;DR Snapshot ✦**
 
-All analysis, visualizations, and hypothesis testing were developed in a Jupyter Notebook, using Python libraries such as `pandas`, `matplotlib`, `seaborn`, and `scipy`.
-
-For a better viewing experience of the Jupyter Notebook, acess through NBViewer
+- 📅 Focus: Games released after **2011**  
+- ⚙️ Tools: Python, Pandas, Seaborn, Matplotlib, Scipy  
+- 🗂 Notebook: [`videogame_data_analysis.ipynb`](./videogame_data_analysis.ipynb)  
+- 🎯 Question: What drives a game’s commercial success?
 
 ---
 
-## 📊 Dataset
+**✦ Project Overview ✦**
+ 
+> **What makes a game sell well — and why?**
+
+This project explores the global video game market using data since 1980s of different consoles to identify trends and factors that influence a game's commercial success. The focus of this study is to understand the mix of **region**, **genre**, **platform**, **reviews**, and **ratings** that create hits. The main goal was to uncover actionable insights that publishers, developers, and marketers can use to better position their products in the market. It's a simulation of a real-world scenario from 2016, focusing on forecast future trends for the next year.
+
+---
+<details>
+<summary>📊 <strong>Dataset</strong></summary>
 
 The dataset is a simulation of public video game sales and review database. It includes:
 
@@ -22,10 +29,11 @@ The dataset is a simulation of public video game sales and review database. It i
 - Genre, publisher, and ESRB rating  
 - Regional and global sales  
 - Critic and user scores
+</details>
 
 ---
-
-## 🧹 Data Preprocessing
+<details>
+<summary>🧹 <strong>Data Preprocessing</strong></summary>
 
 Key steps included:
 
@@ -33,93 +41,87 @@ Key steps included:
 - Fixing inconsistent or missing data  
 - Removing outliers and rare categories  
 - Converting datatypes for numerical operations  
-- Handling `tbd` values with proper NaN conversion  
 
 These steps ensured the dataset was clean and analysis-ready.
+</details>
 
 ---
 
-## 🎯 Business Question
+<details>
+<summary>🌍 <strong>Data Exploration</strong></summary>
 
-> What parameters influence the commercial success of a video game?
-
-I limited the analysis to games released **after 2011**, focusing on newer games and platforms that represent the actual scenario and market trends, and explored how platform, region, genre, rating and critic/user scores affect games sales.
+### 📈 Life Cycle of Consoles
+- After the 2000s there was a boom in videogame sales
+- Consolidation of main companies (Sony, Microsoft, Nintendo)
+- The life cycle of a platform was well stabilished
 
 ---
 
-## 🌍 Regional Platform Trends
-
-Globally, the most sucessful  platforms, by total sales, since 2012 were: 3DS, PS3, PS4, Xbox 360 and Xbox One. However, this may change with a regional focus.
-
-| Region         | Top Platforms                             |
+### 📌 Platform Trends by Region
+| Region         | Top Platforms                              |
 |----------------|--------------------------------------------|
-| **North America** | Xbox 360, PS3, PS4, Xbox One, 3DS         |
-| **Europe**        | PS3, PS4, Xbox 360, 3DS, **PC**           |
-| **Japan**         | 3DS, PS3, **PSP**, **PSV**, PS4          |
+| North America  | Xbox 360, PS3, PS4, Xbox One, 3DS          |
+| Europe         | PS3, PS4, Xbox 360, 3DS, PC                |
+| Japan          | 3DS, PS3, PSP, PSV, PS4                    |
 
-- Japan favors local brands (Sony, Nintendo).  
-- PC is stronger in Europe than other regions.  
-- NA mirrors global trends due to large market share.
-
----
-
-## 📈 User & Critic Scores
-
-- Games with higher ratings tends to sell more.  
-- Correlation between critic scores and sales: **~33%**  
-- Many top-selling games had no critic reviews, showing that branding and genre can outweigh formal scores.
+- Japan favors local brands, like Sony and Nintendo  
+- PC looks more relevant in Europe  
+- NA tracks global trends due to market share
 
 ---
 
-## 🔞 Age Ratings by Region
+### 🎯 Do Scores Affect Sales?
+- High **critic/user scores** → generally higher sales  
+- Some games have huge sales with mixed scores (good for critics, bad for gamers)
+- Critic score ↔ total sales: **~0.33 correlation**
 
-- Japan showed a strong skew toward E-rated (Everyone) games, a direct reflection of the dominance of the 3DS, known for child and family-friendly content.
-- NA and EU favored **M-rated** (Mature) games, consistent with their top genres like Shooter and Action.
-
-- **Business takeaway**: Regional age preferences   should inform content curation, particularly for localized game stores or digital marketing.
-
----
-
-## 🎮 Genre Preferences
-
-- **Globally popular**: Action, Shooter, Sports, RPG  
-- **Japan**: Prefers Role-Playing, Platformers and Fighting
+*Conclusion:* Reviews help, but aren’t everything. Branding, genre, and platform reach still dominate.
 
 ---
 
-## 📊 Hypothesis Testing
-
-Two key tests:
-
-1. **User score comparison: Xbox One vs PC**  
-   - No statistically significant difference in user scores.
-   - Suggests that platform alone may not strongly influence perceived game quality.
-     
-2. **User score comparison: Action vs Sports games**  
-   - **Statistically significant difference** found.
-   - Indicates that **genre does impact user satisfaction**.
+### 🔞 Regional Age Ratings
+- Japan: heavy on **E-rated** games (family-friendly)  
+- NA/EU: heavier on **M-rated** titles (shooters, action)  
 
 ---
 
-## 💼 Possible Applications
-
-- Guide **regional marketing strategies** for publishers  
-- Prioritize **genre-platform combinations** that yield higher satisfaction  
-- Inform digital storefront curation based on age rating trends  
-- Forecast sales likelihood based on early critic scores
+### 🎮 Genre Standouts
+- Globally: Action, Shooter, Sports, RPG  
+- Japan: RPGs, Platformers, Simulators
+</details>
 
 ---
 
-## 🔧 Possible Improvements
+<details>
+<summary>📊 <strong>Hypothesis Testing Highlights</strong></summary>
 
-- Use machine learning models to predict sales  
-- Track long-term trends across more granular year ranges
+| Question                                  | Result                          |
+|-------------------------------------------|---------------------------------|
+| Xbox One vs PC user scores                | ❌ Not significantly different  |
+| Action vs Sports user scores              | ✅ Significant difference found |
+
+</details>
 
 ---
 
-## Final Conclusions
 
-This video game market analysis provided comprehensive insights into key factors influencing game sucess across different platforms, genres, regions, and audience segments. This study reinforces that regional preferences, platform dynamics and content type are deeply connected, and critical to market sucess.
+<details>
+<summary>📦<strong>Business Value & Ideas</strong></summary>
+
+> This analysis can inform real-world decisions for developers, publishers, and marketers:
+
+- 🎯 Focus genres regionally  
+- 🧭 Localize content based on rating preferences  
+- 🛒 Curate storefronts dynamically  
+- 🔮 Predict outcomes with critic score + genre/platform combo
+</details>
+
 
 ---
 
+**Final Conclusion**
+
+This video game market analysis provided comprehensive insights into key factors influencing game sucess across different platforms, genres, regions, and audience segments.
+This study reinforces that regional preferences, platform dynamics and content type are deeply connected, and critical to market sucess.
+
+<br>  
