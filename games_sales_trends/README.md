@@ -55,7 +55,7 @@ These steps ensured the dataset was clean and analysis-ready.
 - Consolidation of main companies (Sony, Microsoft, Nintendo)
 - The life cycle of a platform was well stabilished
 
-![Top 10 Platform Sales Over Time](charts/top_platform_sales.png)  
+![Top 10 Platform Sales Over Time](top_platform_sales.png)  
 *Top 10 platform sales globally since 1980 in millions USD.*
 
 ---
