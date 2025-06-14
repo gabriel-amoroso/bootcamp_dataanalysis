@@ -74,9 +74,9 @@ These steps ensured the dataset was clean and analysis-ready.
 ---
 
 ### 🎯 Do Scores Affect Sales?
-- High **critic/user scores** → generally higher sales  
+- High **critic/user scores → generally higher sales:** 54% correlation between good scores and higher sales
 - Some games have huge sales with mixed scores (good for critics, bad for gamers)
-- Critic score ↔ total sales: **~0.33 correlation**
+
 
 *Conclusion:* Reviews help, but aren’t everything. Branding, genre, and platform reach still dominate.
 
