@@ -8,7 +8,7 @@
 
 - 📅 Focus: Games released after **2011**  
 - ⚙️ Tools: Python, Pandas, Seaborn, Matplotlib, Scipy  
-- 🗂 Notebook: [`videogame_data_analysis.ipynb`](./videogame_data_analysis.ipynb)  
+- 🗂 Notebook: For a better viewing experience of the Jupyter Notebook, acess through [here using NBViewer.](https://nbviewer.org/github/gabriel-amoroso/bootcamp_dataanalysis/blob/main/games_sales_trends/games_sales_project.ipynb) 
 - 🎯 Question: What drives a game’s commercial success?
 
 ---
@@ -80,6 +80,9 @@ These steps ensured the dataset was clean and analysis-ready.
 
 *Conclusion:* Reviews help, but aren’t everything. Branding, genre, and platform reach still dominate.
 
+![User/critic Scores and Game Sales](scores_sales_corr.png)  
+*Correlation between user and critics score with game sales*
+
 ---
 
 ### 🔞 Regional Age Ratings
@@ -89,8 +92,12 @@ These steps ensured the dataset was clean and analysis-ready.
 ---
 
 ### 🎮 Genre Standouts
-- Globally: Action, Shooter, Sports, RPG  
-- Japan: RPGs, Platformers, Simulators
+- Globally: Action, Shooter, Sports and RPGs 
+- Japan: RPGs, Platformers and Fighting
+  
+![Top Genres Sales of each Region](top_genres_region.png)  
+*Top genres sales in each region since 2011 in millions USD.*
+
 </details>
 
 ---
