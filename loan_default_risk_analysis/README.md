@@ -12,7 +12,7 @@ Although the results of the project may be used for further analysis, the main g
 
 ## 📘 Notebook Access
 
-For a better viewing experience of the Jupyter Notebook, acess through [NBViewer](https://nbviewer.org/github/gabriel-amoroso/bootcamp_dataanalysis/blob/main/loan_default_risk_analysis/loan_default_risk_analysis.ipynb)
+For a better viewing experience of the Jupyter Notebook, acess through [here using NBViewer.](https://nbviewer.org/github/gabriel-amoroso/bootcamp_dataanalysis/blob/main/loan_default_risk_analysis/loan_default_risk_analysis.ipynb)
 
 ---
 
