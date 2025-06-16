@@ -129,9 +129,16 @@ These steps ensured the dataset was clean and analysis-ready.
 
 ---
 
-**Final Conclusion**
+** 🔍 Final Conclusion**
 
 This video game market analysis provided comprehensive insights into key factors influencing game sucess across different platforms, genres, regions, and audience segments.
 This study reinforces that regional preferences, platform dynamics and content type are deeply connected, and critical to market sucess.
+
+## 🙌 Credits
+
+Developed by [Gabriel Amoroso](https://github.com/gabriel-amoroso) as part of the Data Analysis Bootcamp by [TripleTen](https://tripleten.com.br).  
+The original dataset used in this project is proprietary to TripleTen and provided for educational purposes only.  
+Special thanks to the TripleTen team, tutors, and reviewers for their guidance and support during the project.
+
 
 <br>  
